@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1000" />
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Djava.library.path=D:\\soft\\OpenCV\\opencv\\build\\java\\x64" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="swagger-json" />
+        <module name="mall-goods-api" />
+        <module name="mall-goods-service" />
+        <module name="mall-common" />
+        <module name="mall-service-dependency" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="gupaoedu-vip-mall" target="1.8" />
+      <module name="mall-api" target="1.8" />
+      <module name="mall-common" target="1.8" />
+      <module name="mall-gateway" target="1.8" />
+      <module name="mall-goods-api" target="1.8" />
+      <module name="mall-goods-service" target="1.8" />
+      <module name="mall-service" target="1.8" />
+      <module name="mall-service-dependency" target="1.8" />
+      <module name="mall-util" target="1.8" />
+      <module name="mall-web" target="1.8" />
+      <module name="swagger-json" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="swagger-json" options="" />
+    </option>
+  </component>
+</project>

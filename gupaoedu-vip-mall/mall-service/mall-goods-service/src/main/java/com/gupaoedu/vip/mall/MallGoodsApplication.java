@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 /*****
- * @Author: 波波
- * @Description: 咕泡云商城
+ * @Author: 李梦圆
+ * @Description: 云商城项目
  ****/
 @SpringBootApplication
 @MapperScan(basePackages = {"com.gupaoedu.vip.mall.goods.mapper"})
